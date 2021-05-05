@@ -44,5 +44,5 @@ There are no tests for this app
 
 ## Questions
 
-- View my [GitHub](https://github.com/surajverma2587) profile (question 8 - input)
+- View my [GitHub](https://nrasool21.github.io/readme-generator/) profile (question 8 - input)
 - Email me at bob@email.com (question 9 - input)
