@@ -12,6 +12,8 @@ const renderLicenseSection = (license) => {};
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (answers) => {
+  const {titleName, MIT, description, install, applicationUsage, contributing, testApplication, github, email } = answers
+
   return `# ${answers.titleName}
 
 ![mit license](https://img.shields.io/badge/license-MIT-green) (question 2 - choices)
