@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require("inquirer");
-const fs = require("fs")
-const generateMarkdown = require("./generateMarkdown");
+const createFile = require("./utils/createFile");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -65,8 +65,8 @@ const init = async () => {
     const answers = await inquirer.prompt(questions)
   
     const markdown = generateMarkdown(answers)
-    console.log(markdown)
-    writeToFile(markdown)
+    
+    createFile(markdown)
 };
 
 // Function call to initialize app
