@@ -1,13 +1,13 @@
-# q
+# readme
 
-![mit license](https://img.shields.io/badge/license-MIT-green) (question 2 - choices)
+![MIT license](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-e
+description
 
 ## Table of Contents
 
-  - [Project Title (question 1 - input)](#project-title-question-1---input)
+  - [Project Title readme](#project-title-question-1---input)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -18,20 +18,20 @@ e
   - [Questions](#questions)
 
 ## Installation
-r
+install
 
 ## Usage
-t
+usage
 
 ## License
 MIT
 
 ## Contributing
-y
+contribution
 
 ## Tests
-u
+testing
 
 ## Questions
-- View my [GitHub](.com)profile
-- Email me at .com
+- View my [GitHub](https://github.com/nrasool21) profile 
+- Email me at gmail.com

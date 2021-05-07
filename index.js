@@ -15,7 +15,7 @@ const questions = [
     type: "list",
     message: "What type of a license would you like to use",
     name: "licenseName",
-    choices: ["MIT", "Apache", "GPA", "MNA"]
+    choices: ["MIT", "Apache", "GPL", "BSD"]
   },
   {
     type: "input",
@@ -24,27 +24,27 @@ const questions = [
   },
   {
     type: "input",
-    message: "How would you like to install the application",
+    message: "Please provide installation instruction",
     name: "install",
   },
   {
     type: "input",
-    message: "Would you like to know how to use the application", 
+    message: "Please provide usage instruction", 
     name: "applicationUsage",
   },
   {
       type: "input",
-      message: "Feel free to contribute at all to the application",
+      message: "What contribute would you like to make to the application",
       name: "contributing"
   },
   {
       type: "input",
-      message: "Can you give any information on testing the application", 
+      message: "Please provide steps for running test in your application", 
       name: "testApplication", 
   },
   {
       type: "input",
-      message: "Please enter your github URL",
+      message: "Please enter your github user name",
       name: "github"
   },
   {
