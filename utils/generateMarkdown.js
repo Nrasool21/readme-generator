@@ -12,18 +12,28 @@ const renderLicenseSection = (license) => {};
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (answers) => {
-  const {titleName, MIT, description, install, applicationUsage, contributing, testApplication, github, email } = answers
+  const {
+    titleName,
+    description,
+    install,
+    applicationUsage,
+    licenseName,
+    contributing,
+    testApplication,
+    github,
+    email,
+  } = answers;
 
-  return `# ${answers.titleName}
+  return `# ${titleName}
 
-![mit license](https://img.shields.io/badge/license-MIT-green) (question 2 - choices)
+![${licenseName} license](https://img.shields.io/badge/license-${licenseName}-green) (question 2 - choices)
 
 ## Description
-${answers.description}
+${description}
 
 ## Table of Contents
 
-  - [Project Title (question 1 - input)](#project-title-question-1---input)
+  - [Project Title ${titleName}](#project-title-question-1---input)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -34,23 +44,23 @@ ${answers.description}
   - [Questions](#questions)
 
 ## Installation
-${answers.install}
+${install}
 
 ## Usage
-${answers.applicationUsage}
+${applicationUsage}
 
 ## License
-${answers.licenseName}
+${licenseName}
 
 ## Contributing
-${answers.contributing}
+${contributing}
 
 ## Tests
-${answers.testApplication}
+${testApplication}
 
 ## Questions
-- View my [GitHub](${answers.github})profile
-- Email me at ${answers.email}
+- View my [GitHub](https://github.com/${github}) profile 
+- Email me at ${email}
 `;
 };
 
