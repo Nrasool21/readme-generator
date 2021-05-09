@@ -34,4 +34,4 @@ testing
 
 ## Questions
 - View my [GitHub](https://github.com/nrasool21) profile 
-- Email me at gmail.com
+- Email me at nazia.huma@gmail.com
