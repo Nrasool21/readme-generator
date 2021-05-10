@@ -14,7 +14,7 @@ const generateMarkdown = (answers) => {
 
   return `# ${titleName}
 
-![${licenseName} license](https://img.shields.io/badge/license-${licenseName}-green) (question 2 - choices)
+![${licenseName} license](https://img.shields.io/badge/license-${licenseName}-green)
 
 ## Description
 ${description}
