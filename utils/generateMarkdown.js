@@ -21,7 +21,7 @@ ${description}
 
 ## Table of Contents
 
-  - [Project Title ${titleName}](#project-title-question-1---input)
+  - [Project Title ${titleName}](#project-title)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
