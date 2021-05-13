@@ -1,13 +1,13 @@
-# readme generator
+# Readme Generator
 
 ![MIT license](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-description
+Description
 
 ## Table of Contents
 
-  - [Project Title readme generator](#project-title-question-1---input)
+  - [Project Title Readme Generator](#project-title)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -18,7 +18,7 @@ description
   - [Questions](#questions)
 
 ## Installation
-installation
+Installation
 
 ## Usage
 usage
@@ -27,11 +27,11 @@ usage
 MIT
 
 ## Contributing
-contribution
+contributuion
 
 ## Tests
 testing
 
 ## Questions
-- View my [GitHub](https://github.com/Narasool21) profile 
+- View my [GitHub](https://github.com/Nrasool21) profile 
 - Email me at nazia.huma@gmail.com
